@@ -5,7 +5,7 @@ import datetime
 import math
 
 # A pattern to match the word vore, and only the single word vore.
-pattern = re.compile(r'\b[V|v][O|Ò|Ó|Ô|Õ|Ö|o|ò|ó|ô|õ|ö][R|r][E|È|É|Ê|Ë|e|è|é|ê|ë][S|s]?\b')
+pattern = re.compile(r'\b[N|n][ñ|Ñ][i|I|í|¡][g][E|È|É|Ê|Ë|e|è|é|ê|ë][R|r][S|s]?\b')
 serverAndDate = {}
 botStartup = datetime.datetime.now()
 lastMention = {}
